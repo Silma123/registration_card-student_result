@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    background-color: rgb(124, 124, 235);
+}
+
+.container{
+    margin-top: 100px; 
+    margin-left: 400px;
+    height: 520px;
+    width: 560px;
+    background-color: white;
+    border-radius: 15px;
+}
+h3{
+    text-align: center;
+    left: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+h4{
+    left: 10px;
+}
+.field{
+    display: flex;
+    justify-items: center;
+}
+.fullname{
+    margin-right: 50px;
+    margin-left: 30px;
+    padding: 10px 10px;
+}
+label{
+    font-weight: bold; 
+}
+#fn{
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 8px;
+}
+#un{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.gender{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+.Cancel{
+    margin-left:40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(214, 64, 64);
+    color: white;
+}
+.Submit{
+    margin-left:10px ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(67, 67, 206),rgb(170, 20, 170));
+}
