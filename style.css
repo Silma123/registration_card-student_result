@@ -11,8 +11,8 @@ body{
 .container{
     margin-top: 100px; 
     margin-left: 400px;
-    height: 520px;
-    width: 560px;
+    height: 480px;
+    width: 820px;
     background-color: white;
     border-radius: 15px;
 }
@@ -30,26 +30,64 @@ h4{
     justify-items: center;
 }
 .fullname{
-    margin-right: 50px;
+    margin-right: 80px;
     margin-left: 30px;
     padding: 10px 10px;
+    display: flex;
+    align-items:center ;
+    
+}
+.username{
+    display: flex;
+    align-items: center;
 }
 label{
     font-weight: bold; 
 }
 #fn{
-    margin-top: 15px;
+    
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 8px;
+}
+#em{
+    margin-left: 45px;
     width: 200px;
     height: 30px;
     border-radius: 5px;
     padding: 8px;
 }
 #un{
-    margin-top: 20px;
+    margin-left: 10px;
     width: 200px;
     height: 30px;
     border-radius: 5px;
     padding: 8px;
+}
+#us{
+    margin-left: 65px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 8px;
+}
+#pn{
+    margin-left: 35px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.Genderfield{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.radio{
+    margin-bottom: 20px;
 }
 .gender{
     height: 20px;

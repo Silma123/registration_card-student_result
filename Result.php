@@ -2,15 +2,15 @@
     
  
  $Totalmarks=0;
- for($x=0;$x<5;$x++){
-    $marks=(int)readline('Enter marks');
-    if($marks<=100 && $marks>=0){
-       if($marks<33){
+ $marks=[67,78, 1000,79,67];
+ for($x=0; $x<count($marks); $x++){
+    if($marks[$x]<=100 && $marks[$x]>=0){
+       if($marks[$x]<33){
            echo "You Failed";
            break;
        }
        else{
-        $Totalmarks+=$marks; 
+        $Totalmarks+=$marks[$x]; 
        }
     }
     else{
