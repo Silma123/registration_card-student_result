@@ -2,7 +2,7 @@
     
  
  $Totalmarks=0;
- $marks=[67,78, 1000,79,67];
+ $marks=[67,78, 77,79,67];
  for($x=0; $x<count($marks); $x++){
     if($marks[$x]<=100 && $marks[$x]>=0){
        if($marks[$x]<33){
@@ -26,7 +26,7 @@
     $avgmarks=$Totalmarks/5;
     return $avgmarks;
  }
- switch($avgmarks){
+ switch(true){
     case ($avgmarks>=80):
         echo " Grade : A+";
         break;
